@@ -1,0 +1,12 @@
+<div class="row justify-content-center lead p-1">
+    <div class="col-sm-12">
+        <div class="row justify-content-center align-items-center">
+             <div class="col-sm-6 border text-center">
+                <p>{{userAnswer.randomNumber}}</p>
+            </div>
+            <div class="col-sm-6 border text-center align-items-center" [ngClass]="{'bg-danger': !userAnswer.isItCorrect, 'bg-success': userAnswer.isItCorrect}">
+              <p>{{userAnswer.isItCorrect}}</p>
+            </div>
+        </div>
+    </div>
+</div>

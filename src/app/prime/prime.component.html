@@ -1,0 +1,17 @@
+<div class="row justify-content-center lead p-1">
+    <div class="col-sm-12 border my-2"
+     [ngClass]="{answerButtonOff: !isClickable, answerButtonOn: isClickable}"
+     (click)="onAnswer()">
+        <div class="container-fluid text-center fs-2">It's Prime!</div>
+    </div>
+    <div class="col-sm-12">
+        <div class="row justify-content-center align-items-center">
+             <div class="col-sm-6 border text-center">
+                <p>NUMBER:</p>
+            </div>
+            <div class="col-sm-6 border text-center">
+              <p>Was it right?</p>
+            </div>
+        </div>
+    </div>
+</div>

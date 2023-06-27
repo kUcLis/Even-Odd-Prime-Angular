@@ -1,0 +1,6 @@
+<div class="hud">
+    <p class="display-7">HUD:</p>
+    <div class="d-flex justify-content-center align-items-center p-2" style="height: 150px;">
+        <p class="lead" [ngClass]="{'fs-4': !isGameRunning, 'display-6': isGameRunning, 'fw-bold': isGameRunning}">{{message}}</p>
+    </div>
+</div>

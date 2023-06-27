@@ -1,0 +1,17 @@
+.answerButtonOff{
+    background-color: red;
+    color: white;
+}
+
+.answerButtonOn{
+    background-color: greenyellow;
+    color: black;
+}
+
+.answerButtonOn:hover{
+    background-color: green;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
